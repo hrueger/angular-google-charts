@@ -1,51 +1,55 @@
 {
   "name": "angular-google-charts",
-  "description": "A wrapper for the Google Charts library written in Angular",
-  "version": "0.0.0",
-  "private": false,
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve playground -o",
-    "build": "ng build angular-google-charts --configuration production",
-    "test": "ng test angular-google-charts",
-    "lint": "ng lint playground",
-    "release": "standard-version"
-  },
-  "workspaces": [
-    "apps/*",
-    "libs/*"
+  "version": "2.2.2",
+  "description": "A wrapper for the Google Charts library written with Angular",
+  "keywords": [
+    "Angular",
+    "Angular 2",
+    "Charts",
+    "Google",
+    "Chart"
   ],
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  "homepage": "https://github.com/FERNman/angular-google-charts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FERNman/angular-google-charts"
+  },
+  "bugs": {
+    "url": "https://github.com/FERNman/angular-google-charts",
+    "email": "gabriel.sperrer@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Gabriel Sperrer",
+    "email": "gabriel.sperrer@gmail.com"
+  },
+  "dependencies": {
+    "@types/google.visualization": "0.0.68",
+    "tslib": "^2.4.0"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=6.0.0 <=13.x.x",
+    "@angular/core": ">=6.0.0 <=13.x.x"
+  },
+  "main": "src/index.ts",
+  "module": "fesm2015/angular-google-charts.mjs",
+  "es2020": "fesm2020/angular-google-charts.mjs",
+  "esm2020": "esm2020/angular-google-charts.mjs",
+  "fesm2020": "fesm2020/angular-google-charts.mjs",
+  "fesm2015": "fesm2015/angular-google-charts.mjs",
+  "typings": "angular-google-charts.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./angular-google-charts.d.ts",
+      "esm2020": "./esm2020/angular-google-charts.mjs",
+      "es2020": "./fesm2020/angular-google-charts.mjs",
+      "es2015": "./fesm2015/angular-google-charts.mjs",
+      "node": "./fesm2015/angular-google-charts.mjs",
+      "default": "./fesm2020/angular-google-charts.mjs"
     }
   },
-  "lint-staged": {
-    "*.ts": "tslint --fix",
-    "*.{json,html,ts,js,scss,css,yml,md}": "prettier --write"
-  },
-  "jest-junit": {
-    "outputDirectory": "test-results"
-  },
-  "standard-version": {
-    "bumpFiles": "libs/angular-google-charts/package.json",
-    "packageFiles": "libs/angular-google-charts/package.json"
-  },
-  "engines": {
-    "npm": ">=7.0.0"
-  },
-  "devDependencies": {
-    "@angular/core": "^13.3.6",
-    "@angular/cli": "^13.3.5",
-    "@angular/compiler": "^13.3.6",
-    "@angular/compiler-cli": "^13.3.6",
-    "@angular/language-service": "^13.3.6",
-    "@angular-devkit/build-angular": "^13.3.5",
-    "@commitlint/cli": "^16.2.4",
-    "@commitlint/config-conventional": "^16.2.4",
-    "husky": "^8.0.1",
-    "lint-staged": "^12.4.1",
-    "prettier": "^2.6.2"
-  }
+  "sideEffects": false
 }
