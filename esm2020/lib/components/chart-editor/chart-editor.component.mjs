@@ -41,9 +41,9 @@ export class ChartEditorComponent {
         return handle;
     }
 }
-ChartEditorComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ChartEditorComponent, deps: [{ token: i1.ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
-ChartEditorComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: ChartEditorComponent, selector: "chart-editor", host: { classAttribute: "chart-editor" }, ngImport: i0, template: `<ng-content></ng-content>`, isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ChartEditorComponent, decorators: [{
+ChartEditorComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ChartEditorComponent, deps: [{ token: i1.ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
+ChartEditorComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: ChartEditorComponent, selector: "chart-editor", host: { classAttribute: "chart-editor" }, ngImport: i0, template: `<ng-content></ng-content>`, isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ChartEditorComponent, decorators: [{
             type: Component,
             args: [{
                     selector: 'chart-editor',

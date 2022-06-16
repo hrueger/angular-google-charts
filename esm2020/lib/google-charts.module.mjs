@@ -15,8 +15,8 @@ export class GoogleChartsModule {
         };
     }
 }
-GoogleChartsModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-GoogleChartsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, declarations: [GoogleChartComponent,
+GoogleChartsModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+GoogleChartsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, declarations: [GoogleChartComponent,
         ChartWrapperComponent,
         DashboardComponent,
         ControlWrapperComponent,
@@ -25,8 +25,8 @@ GoogleChartsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", vers
         DashboardComponent,
         ControlWrapperComponent,
         ChartEditorComponent] });
-GoogleChartsModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, providers: [ScriptLoaderService] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, decorators: [{
+GoogleChartsModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, providers: [ScriptLoaderService] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, decorators: [{
             type: NgModule,
             args: [{
                     declarations: [

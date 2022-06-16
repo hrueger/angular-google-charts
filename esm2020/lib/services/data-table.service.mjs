@@ -29,9 +29,9 @@ export class DataTableService {
         }
     }
 }
-DataTableService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DataTableService, deps: [], target: i0.ɵɵFactoryTarget.Injectable });
-DataTableService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DataTableService, providedIn: 'root' });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DataTableService, decorators: [{
+DataTableService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DataTableService, deps: [], target: i0.ɵɵFactoryTarget.Injectable });
+DataTableService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DataTableService, providedIn: 'root' });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DataTableService, decorators: [{
             type: Injectable,
             args: [{ providedIn: 'root' }]
         }] });

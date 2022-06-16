@@ -88,9 +88,9 @@ export class DashboardComponent {
         });
     }
 }
-DashboardComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DashboardComponent, deps: [{ token: i0.ElementRef }, { token: i1.ScriptLoaderService }, { token: i2.DataTableService }], target: i0.ɵɵFactoryTarget.Component });
-DashboardComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: DashboardComponent, selector: "dashboard", inputs: { data: "data", columns: "columns", formatters: "formatters" }, outputs: { ready: "ready", error: "error" }, host: { classAttribute: "dashboard" }, queries: [{ propertyName: "controlWrappers", predicate: ControlWrapperComponent }], exportAs: ["dashboard"], usesOnChanges: true, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DashboardComponent, decorators: [{
+DashboardComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DashboardComponent, deps: [{ token: i0.ElementRef }, { token: i1.ScriptLoaderService }, { token: i2.DataTableService }], target: i0.ɵɵFactoryTarget.Component });
+DashboardComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: DashboardComponent, selector: "dashboard", inputs: { data: "data", columns: "columns", formatters: "formatters" }, outputs: { ready: "ready", error: "error" }, host: { classAttribute: "dashboard" }, queries: [{ propertyName: "controlWrappers", predicate: ControlWrapperComponent }], exportAs: ["dashboard"], usesOnChanges: true, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DashboardComponent, decorators: [{
             type: Component,
             args: [{
                     selector: 'dashboard',

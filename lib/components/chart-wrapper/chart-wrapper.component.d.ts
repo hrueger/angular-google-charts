@@ -33,5 +33,5 @@ export declare class ChartWrapperComponent implements ChartBase, OnChanges, OnIn
     private drawChart;
     private registerChartEvents;
     static ɵfac: i0.ɵɵFactoryDeclaration<ChartWrapperComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<ChartWrapperComponent, "chart-wrapper", ["chartWrapper"], { "specs": "specs"; }, { "error": "error"; "ready": "ready"; "select": "select"; }, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<ChartWrapperComponent, "chart-wrapper", ["chartWrapper"], { "specs": "specs"; }, { "error": "error"; "ready": "ready"; "select": "select"; }, never, never, false>;
 }

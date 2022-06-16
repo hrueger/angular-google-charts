@@ -24,5 +24,5 @@ export declare class ChartEditorComponent implements OnInit {
     editChart(component: ChartBase): ChartEditorRef;
     editChart(component: ChartBase, options: google.visualization.ChartEditorOptions): ChartEditorRef;
     static ɵfac: i0.ɵɵFactoryDeclaration<ChartEditorComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<ChartEditorComponent, "chart-editor", never, {}, {}, never, ["*"]>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<ChartEditorComponent, "chart-editor", never, {}, {}, never, ["*"], false>;
 }

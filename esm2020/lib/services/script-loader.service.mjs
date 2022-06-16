@@ -100,9 +100,9 @@ export class ScriptLoaderService {
         return script;
     }
 }
-ScriptLoaderService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ScriptLoaderService, deps: [{ token: i0.NgZone }, { token: LOCALE_ID }, { token: GOOGLE_CHARTS_LAZY_CONFIG }], target: i0.ɵɵFactoryTarget.Injectable });
-ScriptLoaderService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ScriptLoaderService });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ScriptLoaderService, decorators: [{
+ScriptLoaderService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ScriptLoaderService, deps: [{ token: i0.NgZone }, { token: LOCALE_ID }, { token: GOOGLE_CHARTS_LAZY_CONFIG }], target: i0.ɵɵFactoryTarget.Injectable });
+ScriptLoaderService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ScriptLoaderService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ScriptLoaderService, decorators: [{
             type: Injectable
         }], ctorParameters: function () { return [{ type: i0.NgZone }, { type: undefined, decorators: [{
                     type: Inject,

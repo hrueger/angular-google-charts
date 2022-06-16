@@ -53,5 +53,5 @@ export declare class DashboardComponent implements OnInit, OnChanges {
     private registerEvents;
     private initializeBindings;
     static ɵfac: i0.ɵɵFactoryDeclaration<DashboardComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<DashboardComponent, "dashboard", ["dashboard"], { "data": "data"; "columns": "columns"; "formatters": "formatters"; }, { "ready": "ready"; "error": "error"; }, ["controlWrappers"], ["*"]>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<DashboardComponent, "dashboard", ["dashboard"], { "data": "data"; "columns": "columns"; "formatters": "formatters"; }, { "ready": "ready"; "error": "error"; }, ["controlWrappers"], ["*"], false>;
 }

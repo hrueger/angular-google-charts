@@ -211,9 +211,9 @@ class ScriptLoaderService {
         return script;
     }
 }
-ScriptLoaderService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ScriptLoaderService, deps: [{ token: i0.NgZone }, { token: LOCALE_ID }, { token: GOOGLE_CHARTS_LAZY_CONFIG }], target: i0.ɵɵFactoryTarget.Injectable });
-ScriptLoaderService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ScriptLoaderService });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ScriptLoaderService, decorators: [{
+ScriptLoaderService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ScriptLoaderService, deps: [{ token: i0.NgZone }, { token: LOCALE_ID }, { token: GOOGLE_CHARTS_LAZY_CONFIG }], target: i0.ɵɵFactoryTarget.Injectable });
+ScriptLoaderService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ScriptLoaderService });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ScriptLoaderService, decorators: [{
             type: Injectable
         }], ctorParameters: function () { return [{ type: i0.NgZone }, { type: undefined, decorators: [{
                     type: Inject,
@@ -259,9 +259,9 @@ class ChartEditorComponent {
         return handle;
     }
 }
-ChartEditorComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ChartEditorComponent, deps: [{ token: ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
-ChartEditorComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: ChartEditorComponent, selector: "chart-editor", host: { classAttribute: "chart-editor" }, ngImport: i0, template: `<ng-content></ng-content>`, isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ChartEditorComponent, decorators: [{
+ChartEditorComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ChartEditorComponent, deps: [{ token: ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
+ChartEditorComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: ChartEditorComponent, selector: "chart-editor", host: { classAttribute: "chart-editor" }, ngImport: i0, template: `<ng-content></ng-content>`, isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ChartEditorComponent, decorators: [{
             type: Component,
             args: [{
                     selector: 'chart-editor',
@@ -300,9 +300,9 @@ class DataTableService {
         }
     }
 }
-DataTableService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DataTableService, deps: [], target: i0.ɵɵFactoryTarget.Injectable });
-DataTableService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DataTableService, providedIn: 'root' });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DataTableService, decorators: [{
+DataTableService.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DataTableService, deps: [], target: i0.ɵɵFactoryTarget.Injectable });
+DataTableService.ɵprov = i0.ɵɵngDeclareInjectable({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DataTableService, providedIn: 'root' });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DataTableService, decorators: [{
             type: Injectable,
             args: [{ providedIn: 'root' }]
         }] });
@@ -401,9 +401,9 @@ class ControlWrapperComponent {
         google.visualization.events.addListener(this._controlWrapper, 'statechange', (event) => this.stateChange.emit(event));
     }
 }
-ControlWrapperComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ControlWrapperComponent, deps: [{ token: ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
-ControlWrapperComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: ControlWrapperComponent, selector: "control-wrapper", inputs: { for: "for", type: "type", options: "options", state: "state" }, outputs: { error: "error", ready: "ready", stateChange: "stateChange" }, host: { properties: { "id": "this.id" }, classAttribute: "control-wrapper" }, exportAs: ["controlWrapper"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ControlWrapperComponent, decorators: [{
+ControlWrapperComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ControlWrapperComponent, deps: [{ token: ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
+ControlWrapperComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: ControlWrapperComponent, selector: "control-wrapper", inputs: { for: "for", type: "type", options: "options", state: "state" }, outputs: { error: "error", ready: "ready", stateChange: "stateChange" }, host: { properties: { "id": "this.id" }, classAttribute: "control-wrapper" }, exportAs: ["controlWrapper"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ControlWrapperComponent, decorators: [{
             type: Component,
             args: [{
                     selector: 'control-wrapper',
@@ -513,9 +513,9 @@ class DashboardComponent {
         });
     }
 }
-DashboardComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DashboardComponent, deps: [{ token: i0.ElementRef }, { token: ScriptLoaderService }, { token: DataTableService }], target: i0.ɵɵFactoryTarget.Component });
-DashboardComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: DashboardComponent, selector: "dashboard", inputs: { data: "data", columns: "columns", formatters: "formatters" }, outputs: { ready: "ready", error: "error" }, host: { classAttribute: "dashboard" }, queries: [{ propertyName: "controlWrappers", predicate: ControlWrapperComponent }], exportAs: ["dashboard"], usesOnChanges: true, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: DashboardComponent, decorators: [{
+DashboardComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DashboardComponent, deps: [{ token: i0.ElementRef }, { token: ScriptLoaderService }, { token: DataTableService }], target: i0.ɵɵFactoryTarget.Component });
+DashboardComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: DashboardComponent, selector: "dashboard", inputs: { data: "data", columns: "columns", formatters: "formatters" }, outputs: { ready: "ready", error: "error" }, host: { classAttribute: "dashboard" }, queries: [{ propertyName: "controlWrappers", predicate: ControlWrapperComponent }], exportAs: ["dashboard"], usesOnChanges: true, ngImport: i0, template: '<ng-content></ng-content>', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: DashboardComponent, decorators: [{
             type: Component,
             args: [{
                     selector: 'dashboard',
@@ -699,18 +699,11 @@ class GoogleChartComponent {
         this.wrapper.draw();
     }
 }
-GoogleChartComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartComponent, deps: [{ token: i0.ElementRef }, { token: ScriptLoaderService }, { token: DataTableService }, { token: DashboardComponent, optional: true }], target: i0.ɵɵFactoryTarget.Component });
-GoogleChartComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: GoogleChartComponent, selector: "google-chart", inputs: { type: "type", data: "data", columns: "columns", title: "title", width: "width", height: "height", options: "options", formatters: "formatters", dynamicResize: "dynamicResize" }, outputs: { ready: "ready", error: "error", select: "select", mouseover: "mouseover", mouseleave: "mouseleave" }, host: { classAttribute: "google-chart" }, exportAs: ["googleChart"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, styles: [":host{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:block}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartComponent, decorators: [{
+GoogleChartComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartComponent, deps: [{ token: i0.ElementRef }, { token: ScriptLoaderService }, { token: DataTableService }, { token: DashboardComponent, optional: true }], target: i0.ɵɵFactoryTarget.Component });
+GoogleChartComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: GoogleChartComponent, selector: "google-chart", inputs: { type: "type", data: "data", columns: "columns", title: "title", width: "width", height: "height", options: "options", formatters: "formatters", dynamicResize: "dynamicResize" }, outputs: { ready: "ready", error: "error", select: "select", mouseover: "mouseover", mouseleave: "mouseleave" }, host: { classAttribute: "google-chart" }, exportAs: ["googleChart"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, styles: [":host{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:block}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartComponent, decorators: [{
             type: Component,
-            args: [{
-                    selector: 'google-chart',
-                    template: '',
-                    styles: [':host { width: fit-content; display: block; }'],
-                    host: { class: 'google-chart' },
-                    exportAs: 'googleChart',
-                    changeDetection: ChangeDetectionStrategy.OnPush
-                }]
+            args: [{ selector: 'google-chart', template: '', host: { class: 'google-chart' }, exportAs: 'googleChart', changeDetection: ChangeDetectionStrategy.OnPush, styles: [":host{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:block}\n"] }]
         }], ctorParameters: function () { return [{ type: i0.ElementRef }, { type: ScriptLoaderService }, { type: DataTableService }, { type: DashboardComponent, decorators: [{
                     type: Optional
                 }] }]; }, propDecorators: { type: [{
@@ -831,18 +824,11 @@ class ChartWrapperComponent {
         });
     }
 }
-ChartWrapperComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ChartWrapperComponent, deps: [{ token: i0.ElementRef }, { token: ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
-ChartWrapperComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: ChartWrapperComponent, selector: "chart-wrapper", inputs: { specs: "specs" }, outputs: { error: "error", ready: "ready", select: "select" }, host: { classAttribute: "chart-wrapper" }, exportAs: ["chartWrapper"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, styles: [":host{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:block}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ChartWrapperComponent, decorators: [{
+ChartWrapperComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ChartWrapperComponent, deps: [{ token: i0.ElementRef }, { token: ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
+ChartWrapperComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: ChartWrapperComponent, selector: "chart-wrapper", inputs: { specs: "specs" }, outputs: { error: "error", ready: "ready", select: "select" }, host: { classAttribute: "chart-wrapper" }, exportAs: ["chartWrapper"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, styles: [":host{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:block}\n"], changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ChartWrapperComponent, decorators: [{
             type: Component,
-            args: [{
-                    selector: 'chart-wrapper',
-                    template: '',
-                    styles: [':host { width: fit-content; display: block; }'],
-                    host: { class: 'chart-wrapper' },
-                    exportAs: 'chartWrapper',
-                    changeDetection: ChangeDetectionStrategy.OnPush
-                }]
+            args: [{ selector: 'chart-wrapper', template: '', host: { class: 'chart-wrapper' }, exportAs: 'chartWrapper', changeDetection: ChangeDetectionStrategy.OnPush, styles: [":host{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;display:block}\n"] }]
         }], ctorParameters: function () { return [{ type: i0.ElementRef }, { type: ScriptLoaderService }]; }, propDecorators: { specs: [{
                 type: Input
             }], error: [{
@@ -861,8 +847,8 @@ class GoogleChartsModule {
         };
     }
 }
-GoogleChartsModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
-GoogleChartsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, declarations: [GoogleChartComponent,
+GoogleChartsModule.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, deps: [], target: i0.ɵɵFactoryTarget.NgModule });
+GoogleChartsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "14.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, declarations: [GoogleChartComponent,
         ChartWrapperComponent,
         DashboardComponent,
         ControlWrapperComponent,
@@ -871,8 +857,8 @@ GoogleChartsModule.ɵmod = i0.ɵɵngDeclareNgModule({ minVersion: "12.0.0", vers
         DashboardComponent,
         ControlWrapperComponent,
         ChartEditorComponent] });
-GoogleChartsModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, providers: [ScriptLoaderService] });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: GoogleChartsModule, decorators: [{
+GoogleChartsModule.ɵinj = i0.ɵɵngDeclareInjector({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, providers: [ScriptLoaderService] });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: GoogleChartsModule, decorators: [{
             type: NgModule,
             args: [{
                     declarations: [

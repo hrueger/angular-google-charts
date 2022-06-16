@@ -83,5 +83,5 @@ export declare class ControlWrapperComponent implements OnInit, OnChanges {
     private createControlWrapper;
     private addEventListeners;
     static ɵfac: i0.ɵɵFactoryDeclaration<ControlWrapperComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<ControlWrapperComponent, "control-wrapper", ["controlWrapper"], { "for": "for"; "type": "type"; "options": "options"; "state": "state"; }, { "error": "error"; "ready": "ready"; "stateChange": "stateChange"; }, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<ControlWrapperComponent, "control-wrapper", ["controlWrapper"], { "for": "for"; "type": "type"; "options": "options"; "state": "state"; }, { "error": "error"; "ready": "ready"; "stateChange": "stateChange"; }, never, never, false>;
 }

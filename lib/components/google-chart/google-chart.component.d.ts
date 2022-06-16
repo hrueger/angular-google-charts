@@ -104,5 +104,5 @@ export declare class GoogleChartComponent implements ChartBase, OnInit, OnChange
     private registerChartEvent;
     private drawChart;
     static ɵfac: i0.ɵɵFactoryDeclaration<GoogleChartComponent, [null, null, null, { optional: true; }]>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<GoogleChartComponent, "google-chart", ["googleChart"], { "type": "type"; "data": "data"; "columns": "columns"; "title": "title"; "width": "width"; "height": "height"; "options": "options"; "formatters": "formatters"; "dynamicResize": "dynamicResize"; }, { "ready": "ready"; "error": "error"; "select": "select"; "mouseover": "mouseover"; "mouseleave": "mouseleave"; }, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<GoogleChartComponent, "google-chart", ["googleChart"], { "type": "type"; "data": "data"; "columns": "columns"; "title": "title"; "width": "width"; "height": "height"; "options": "options"; "formatters": "formatters"; "dynamicResize": "dynamicResize"; }, { "ready": "ready"; "error": "error"; "select": "select"; "mouseover": "mouseover"; "mouseleave": "mouseleave"; }, never, never, false>;
 }

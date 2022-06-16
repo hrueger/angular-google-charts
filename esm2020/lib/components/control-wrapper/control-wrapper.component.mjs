@@ -80,9 +80,9 @@ export class ControlWrapperComponent {
         google.visualization.events.addListener(this._controlWrapper, 'statechange', (event) => this.stateChange.emit(event));
     }
 }
-ControlWrapperComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ControlWrapperComponent, deps: [{ token: i1.ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
-ControlWrapperComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "12.0.0", version: "13.3.6", type: ControlWrapperComponent, selector: "control-wrapper", inputs: { for: "for", type: "type", options: "options", state: "state" }, outputs: { error: "error", ready: "ready", stateChange: "stateChange" }, host: { properties: { "id": "this.id" }, classAttribute: "control-wrapper" }, exportAs: ["controlWrapper"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "13.3.6", ngImport: i0, type: ControlWrapperComponent, decorators: [{
+ControlWrapperComponent.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ControlWrapperComponent, deps: [{ token: i1.ScriptLoaderService }], target: i0.ɵɵFactoryTarget.Component });
+ControlWrapperComponent.ɵcmp = i0.ɵɵngDeclareComponent({ minVersion: "14.0.0", version: "14.0.2", type: ControlWrapperComponent, selector: "control-wrapper", inputs: { for: "for", type: "type", options: "options", state: "state" }, outputs: { error: "error", ready: "ready", stateChange: "stateChange" }, host: { properties: { "id": "this.id" }, classAttribute: "control-wrapper" }, exportAs: ["controlWrapper"], usesOnChanges: true, ngImport: i0, template: '', isInline: true, changeDetection: i0.ChangeDetectionStrategy.OnPush });
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "14.0.2", ngImport: i0, type: ControlWrapperComponent, decorators: [{
             type: Component,
             args: [{
                     selector: 'control-wrapper',
